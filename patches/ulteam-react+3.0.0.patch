@@ -1,0 +1,71 @@
+diff --git a/node_modules/ulteam-react/package.json b/node_modules/ulteam-react/package.json
+index 11492c5..5de1dad 100644
+--- a/node_modules/ulteam-react/package.json
++++ b/node_modules/ulteam-react/package.json
+@@ -1,26 +1,40 @@
+ {
+-  "_from": "https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
++  "_from": "ulteam-react",
+   "_id": "ulteam-react@3.0.0",
+   "_inBundle": false,
+   "_integrity": "sha512-SCmc8RIT7weiqhWvDw3UrOlwRa3xSTDX/PC4MAvWWwlSsI2lLuOwX9IW+JOfdZbCmBvqa1NQoGKcjeYMSpPcxA==",
+   "_location": "/ulteam-react",
+-  "_phantomChildren": {},
++  "_phantomChildren": {
++    "@fluentui/date-time-utilities": "7.9.0",
++    "@fluentui/dom-utilities": "1.1.1",
++    "@fluentui/react-focus": "7.17.1",
++    "@fluentui/react-window-provider": "1.0.1",
++    "@fluentui/theme": "1.7.1",
++    "@types/prop-types": "15.7.2",
++    "@uifabric/react-hooks": "7.13.9",
++    "loose-envify": "1.4.0",
++    "object-assign": "4.1.1",
++    "react-is": "16.8.1",
++    "tslib": "1.10.0"
++  },
+   "_requested": {
+-    "type": "remote",
+-    "raw": "ulteam-react@https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
++    "type": "tag",
++    "registry": true,
++    "raw": "ulteam-react",
+     "name": "ulteam-react",
+     "escapedName": "ulteam-react",
+-    "rawSpec": "https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
+-    "saveSpec": "https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
+-    "fetchSpec": "https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz"
++    "rawSpec": "",
++    "saveSpec": null,
++    "fetchSpec": "latest"
+   },
+   "_requiredBy": [
++    "#USER",
+     "/"
+   ],
+   "_resolved": "https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
+   "_shasum": "e6d656eb80d645af114916ad1f8f4c1bb49bef03",
+-  "_spec": "ulteam-react@https://registry.npmjs.org/ulteam-react/-/ulteam-react-3.0.0.tgz",
+-  "_where": "C:\\Users\\Barry\\AppData\\Local\\Temp\\tmp-9788T0nnYFcZqTJr",
++  "_spec": "ulteam-react",
++  "_where": "D:\\git\\test\\xero-test",
+   "author": {
+     "name": "Ulteam",
+     "email": "chernyshev@ulteam.ru",
+@@ -127,7 +141,7 @@
+     "applicationinsights"
+   ],
+   "license": "ISC",
+-  "main": "lib/**/index.js",
++  "main": "lib/index.js",
+   "name": "ulteam-react",
+   "scripts": {
+     "build": "tsc",
+@@ -138,6 +152,6 @@
+     "pipeline-test": "jest --silent",
+     "test": "jest --watchAll --silent"
+   },
+-  "types": "lib/**/index.d.ts",
++  "types": "lib/index.d.ts",
+   "version": "3.0.0"
+ }
